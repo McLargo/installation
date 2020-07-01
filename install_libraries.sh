@@ -1,9 +1,13 @@
 #!/usr/bin/env bash
 
-# script untested
+# script untested. TOTEST
 # curl
 echo "Installing curl..."
 apt-get install curl -y
+
+# tweak tool
+echo "Installing tweak tool..."
+apt-get install gnome-tweak-tool -y
 
 # spotify
 echo "Installing spotify..."

@@ -11,7 +11,8 @@ alias lpyc='find . -name "*.pyc" -type f'
 
 # extra
 alias subl='~/programs/sublime_text_3/sublime_text'
-
+alias todo='~/projects/mclargo/todoist-api/scripts/create_task.sh '
+alias todor='~/projects/mclargo/todoist-api/scripts/remove_task.sh '
 
 # load custom bash_aliases
 if [ -f ~/.bash_aliases_custom ]; then
