@@ -3,9 +3,15 @@
 
 ### Pre-requirements:
 
+Install git
 `sudo apt-get install git -y`
 
-`git clone git@github.com:McLargo/installation.git`
+Create personal and work folders on user path
+`mdkir ~/personal`
+`mdkir ~/work`
+
+Clone my personal installation repo
+`git clone https://github.com/McLargo/installation.git`
 
 ### Execute following script:
 
