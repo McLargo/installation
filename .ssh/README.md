@@ -5,7 +5,7 @@ The idea is to keep a simple .ssh/config, and include other .ssh config files, e
 More info, check [here](https://superuser.com/questions/247564/is-there-a-way-for-one-ssh-config-file-to-include-another-one
 )
 
-steps
+#### steps
 
 ```
 cp config ~/.ssh
@@ -14,7 +14,6 @@ ln -s <work_.ssh_path> ~/.ssh/work.d
 ```
 
 (symlink for personal and work .ssh files does not belong here, must be different repo)
-
 
 #### Throubleshooting
 
