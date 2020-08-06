@@ -9,6 +9,9 @@ alias lgalias='cat ~/.gitalias && cat ~/.gitalias_custom'
 alias dpyc='find . -name "*.pyc" -type f -delete'
 alias lpyc='find . -name "*.pyc" -type f'
 
+# pip
+alias pip=pip3
+
 # extra
 alias subl='~/programs/sublime_text_3/sublime_text'
 alias todo='~/projects/mclargo/todoist-api/scripts/create_task.sh '
