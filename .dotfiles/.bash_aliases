@@ -7,6 +7,7 @@ alias ealias='subl ~/.bash_aliases && subl ~/.bash_aliases_custom'
 alias lalias='cat ~/.bash_aliases && cat ~/.bash_aliases_custom'
 alias egalias='subl ~/.gitalias && subl ~/.gitalias_custom'
 alias lgalias='cat ~/.gitalias && cat ~/.gitalias_custom'
+alias lssh='cat ~/.ssh/work.d/* && cat ~/.ssh/personal.d/*'
 
 alias dpyc='find . -name "*.pyc" -type f -delete'
 alias lpyc='find . -name "*.pyc" -type f'
