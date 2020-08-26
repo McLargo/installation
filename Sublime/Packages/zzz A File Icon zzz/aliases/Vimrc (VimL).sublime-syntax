@@ -1,0 +1,10 @@
+%YAML 1.2
+---
+name: Vimrc (VimL)
+hidden: true
+file_extensions: ['.vimrc', '.gvimrc', '_vimrc', '_gvimrc']
+scope: source.viml.vimrc
+contexts:
+  main:
+    - include: scope:source.viml#prototype
+    - include: scope:source.viml

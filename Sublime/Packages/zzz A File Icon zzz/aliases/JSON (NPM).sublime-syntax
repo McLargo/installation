@@ -1,0 +1,10 @@
+%YAML 1.2
+---
+name: JSON (NPM)
+hidden: true
+file_extensions: ['package-lock.json', 'package.json']
+scope: source.json.npm
+contexts:
+  main:
+    - include: scope:source.json#prototype
+    - include: scope:source.json

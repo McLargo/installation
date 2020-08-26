@@ -1,0 +1,24 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Anaconda",
+		"Clickable URLs",
+		"Compare Side-By-Side",
+		"Djaneiro",
+		"Django",
+		"Git blame",
+		"GitGutter",
+		"LanguageTool",
+		"MarkdownLivePreview",
+		"Package Control",
+		"Pretty JSON",
+		"requirementstxt",
+		"SideBarEnhancements",
+		"TrailingSpaces"
+	]
+}

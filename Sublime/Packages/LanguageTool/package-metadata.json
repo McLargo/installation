@@ -1,0 +1,1 @@
+{"description": "Proof-reading and grammar checker for English, French, German, Polish and 20+ other languages", "version": "0.2.6", "sublime_text": "*", "dependencies": [], "url": "https://github.com/gtarawneh/languagetool-sublime", "platforms": ["*"]}

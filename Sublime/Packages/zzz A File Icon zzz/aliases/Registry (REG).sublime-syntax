@@ -1,0 +1,10 @@
+%YAML 1.2
+---
+name: Registry (REG)
+hidden: true
+file_extensions: ['reg']
+scope: source.reg
+contexts:
+  main:
+    - include: scope:source.ini#prototype
+    - include: scope:source.ini

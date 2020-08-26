@@ -1,0 +1,10 @@
+%YAML 1.2
+---
+name: Groovy (Gradle)
+hidden: true
+file_extensions: ['gradle']
+scope: source.groovy.gradle
+contexts:
+  main:
+    - include: scope:source.groovy#prototype
+    - include: scope:source.groovy

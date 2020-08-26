@@ -1,0 +1,10 @@
+%YAML 1.2
+---
+name: Shell Script (Stylelint)
+hidden: true
+file_extensions: ['.stylelintignore']
+scope: source.shell.stylelint
+contexts:
+  main:
+    - include: scope:source.shell#prototype
+    - include: scope:source.shell

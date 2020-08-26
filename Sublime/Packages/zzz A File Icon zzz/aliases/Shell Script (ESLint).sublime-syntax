@@ -1,0 +1,10 @@
+%YAML 1.2
+---
+name: Shell Script (ESLint)
+hidden: true
+file_extensions: ['.eslintignore']
+scope: source.shell.eslint
+contexts:
+  main:
+    - include: scope:source.shell#prototype
+    - include: scope:source.shell

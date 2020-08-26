@@ -1,0 +1,10 @@
+%YAML 1.2
+---
+name: YAML (Procfile)
+hidden: true
+file_extensions: ['Procfile']
+scope: source.yaml.procfile
+contexts:
+  main:
+    - include: scope:source.yaml#prototype
+    - include: scope:source.yaml

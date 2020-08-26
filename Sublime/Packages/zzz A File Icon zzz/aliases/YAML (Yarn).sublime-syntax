@@ -1,0 +1,10 @@
+%YAML 1.2
+---
+name: YAML (Yarn)
+hidden: true
+file_extensions: ['yarn.lock']
+scope: source.yaml.yarn
+contexts:
+  main:
+    - include: scope:source.yaml#prototype
+    - include: scope:source.yaml

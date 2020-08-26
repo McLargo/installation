@@ -121,6 +121,9 @@ if [ $ZSH_THEME = 'lambda' ]; then
     ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[blue]%})"
 fi
 
+# export path for python
+export PATH="$HOME/.local/bin:$PATH"
+
 # load gitalias
 if [ -f ~/.gitalias ]; then
     . ~/.gitalias

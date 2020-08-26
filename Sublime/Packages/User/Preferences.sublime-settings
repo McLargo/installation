@@ -1,0 +1,15 @@
+{
+	"color_scheme": "Monokai.sublime-color-scheme",
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"rulers": [80],
+	"highlight_modified_tabs": true,
+	"ensure_newline_at_eof_on_save": true,
+	"highlight_line": true,
+	"open_files_in_new_window": false,
+	"word_wrap": true,
+	"spell_check": true,
+}
