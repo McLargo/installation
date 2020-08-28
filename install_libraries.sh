@@ -16,8 +16,8 @@ echo "Installing sublime..."
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 sudo apt-add-repository "deb https://download.sublimetext.com/ apt/stable/"
 sudo apt install sublime-text -y
-# create symlink to folder that contains my plug-ins and configuration.
-# check and remove previous folder
+# check and remove previous sublime-text-3 folder, and
+# create symlink to my folder that contains my plug-ins and configuration
 if [ -d "$HOME/.config/sublime-text-3" ]
 	rm -rf $HOME/.config/sublime-text-3
 n -s $PERSONAL/installation/Sublime $HOME/.config/sublime-text-3
@@ -40,3 +40,6 @@ sudo apt install brave-browser
 # keepass
 sudo add-apt-repository ppa:eugenesan/ppa
 sudo apt install keepass2
+
+# calibre
+sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin

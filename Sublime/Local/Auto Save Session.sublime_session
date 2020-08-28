@@ -2,6 +2,8 @@
 	"folder_history":
 	[
 		"/home/javier/personal/installation",
+		"/home/javier/personal/todoist-api",
+		"/home/javier/personal/retropie",
 		"/home/javier/work/dbss",
 		"/home/javier/work/revolver",
 		"/home/javier/work/dbss_automation",
@@ -12,7 +14,7 @@
 		"/home/javier"
 	],
 	"last_version": 3211,
-	"last_window_id": 42,
+	"last_window_id": 46,
 	"log_indexing": false,
 	"settings":
 	{
@@ -23,6 +25,22 @@
 			{
 				"selected_items":
 				[
+					[
+						"er",
+						"error_message"
+					],
+					[
+						"is_",
+						"is_deferred_payment"
+					],
+					[
+						"orde",
+						"ordered_devices"
+					],
+					[
+						"ORder",
+						"OrdersApi"
+					]
 				]
 			},
 			"build_system_choices":
@@ -72,14 +90,56 @@
 			},
 			"file_history":
 			[
+				"/home/javier/work/dbss/errands/tasks/task_handlers/dmp.py",
+				"/home/javier/work/dbss/customers/contracts/utils.py",
+				"/home/javier/work/dbss/customers/contracts/features/msisdn.py",
+				"/home/javier/work/dbss/customers/contracts/features/sync.py",
+				"/home/javier/work/dbss/applications/blck/middleware.py",
+				"/home/javier/work/dbss/applications/dwhtools/management/commands/dwhdump.conf",
+				"/home/javier/work/dbss/applications/salesmen/models.py",
+				"/home/javier/work/qv-documents/scripts/stop_local.sh",
+				"/home/javier/work/qv-documents/scripts/start_local.sh",
+				"/home/javier/work/dbss/customers/contracts/features/package.py",
+				"/home/javier/.bash_aliases",
+				"/home/javier/.bash_aliases_custom",
+				"/home/javier/work/dbss/interfaces/alyssa/static/js/views/oc.payment-confirmation-order.js",
+				"/home/javier/work/dbss/selfservice/ss_balance_transfer/views.py",
+				"/home/javier/work/dbss/customers/api/tests/test_views.py",
+				"/home/javier/work/dbss/interfaces/alyssa/static/js/views/oc.payment-confirmation.js",
+				"/home/javier/work/dbss/customers/contracts/features/payment.py",
+				"/home/javier/work/dbss/customers/contracts/features/telepin_topup.py",
+				"/home/javier/work/dbss/customers/companies/features/cug.py",
+				"/home/javier/work/dbss/applications/fourpane/handlers.py",
+				"/home/javier/work/dbss/customers/contracts/tabs/contract/consumption.py",
+				"/home/javier/work/dbss/errands/tasks/task_handlers/prepaid.py",
+				"/home/javier/work/dbss/customers/contracts/views.py",
+				"/home/javier/work/dbss/applications/authentication/services/enduser_auth/subscription_client.py",
+				"/home/javier/work/dbss/applications/fourpane/models.py",
+				"/home/javier/work/dbss/applications/fourpane/tabs.py",
+				"/home/javier/work/dbss/applications/fourpane/tests/test_memo_processing.py",
+				"/home/javier/work/dbss/customers/contracts/features/paymentplan.py",
+				"/home/javier/work/dbss/interfaces/alyssa/static/js/views/oc.payment-confirmation-utils.js",
+				"/home/javier/work/dbss/conf/development.py",
+				"/home/javier/work/dbss/common/bss/clients/orders.py",
+				"/home/javier/work/dbss/common/bss/resources/orders.py",
+				"/home/javier/work/dbss/common/bss/resources/__init__.py",
+				"/home/javier/work/dbss/interfaces/alyssa/views/__init__.py",
+				"/home/javier/work/dbss/common/clients/bss.py",
+				"/home/javier/work/dbss/orders/ordered_contracts/api/__init__.py",
+				"/home/javier/work/dbss/customers/contracts/features/stc.py",
+				"/home/javier/work/dbss/docker-compose.yml",
+				"/home/javier/work/dbss/node_modules/caniuse-db/features-json/css-featurequeries.json",
+				"/home/javier/work/dbss/customers/api/serializers.py",
+				"/home/javier/work/dbss/customers/api/views.py",
+				"/home/javier/work/dbss/selfservice/ss_billing/views.py",
+				"/home/javier/work/dbss/common/bss/clients/billing.py",
+				"/home/javier/work/dbss/selfservice/ss_billing/tests/test_views.py",
+				"/home/javier/work/dbss/customers/api/urls.py",
 				"/home/javier/work/qv-documents/README.md",
 				"/home/javier/work/dbss/docs/pages/README-docker-setup.rst",
 				"/home/javier/work/dbss/docker/qvantel-base-dbss-python/Dockerfile",
-				"/home/javier/.bash_aliases",
 				"/home/javier/work/dbss/conf/production.py",
 				"/home/javier/.zsh_history",
-				"/home/javier/.bash_aliases_custom",
-				"/home/javier/work/dbss/docker-compose.yml",
 				"/home/javier/work/dbss/Dockerfile",
 				"/home/javier/work/qv-documents/scripts/.ssh/server_list",
 				"/home/javier/work/qv-documents/scripts/hosts",
@@ -99,13 +159,15 @@
 			],
 			"find":
 			{
-				"height": 26.0
+				"height": 38.0
 			},
 			"find_in_files":
 			{
 				"height": 98.0,
 				"where_history":
 				[
+					"*.py",
+					""
 				]
 			},
 			"find_state":
@@ -113,6 +175,45 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"salesmen_reseller",
+					"salesmen_",
+					"translation",
+					"handle_sync_dmp",
+					"topic",
+					"json",
+					"InvoicePaym",
+					"errors = json.loads(e.message).get('errors')",
+					"details",
+					"detail",
+					"HttpErrorResponse",
+					"detail",
+					"except HttpErrorResponse",
+					"HttpErrorResponse",
+					"except Exception as e",
+					"update_flow",
+					"do_persist",
+					"auto_persist",
+					"post_notification_hook",
+					"if action == 'done':",
+					"post_notif",
+					"post_notifiction",
+					"div_delete_payment",
+					"button_delete_payment",
+					"add_transaction",
+					"add_",
+					"add_transaction",
+					"add_",
+					"$('.button_delete_payment').click(function()",
+					"button_delete",
+					"delete",
+					"ordered-dev",
+					"ordered_dev",
+					"cache",
+					"cacheç",
+					"LocMemCache",
+					"lock",
+					".lock",
+					"invoice-payments"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -140,6 +241,10 @@
 			{
 				"height": 0.0
 			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
 			"pinned_build_system": "",
 			"replace":
 			{
@@ -153,12 +258,60 @@
 				"selected_items":
 				[
 					[
-						"produ",
-						"conf/production.py"
+						"dump conf",
+						"applications/dwhtools/management/commands/dwhdump.conf"
+					],
+					[
+						"customer contr utils",
+						"customers/contracts/utils.py"
+					],
+					[
+						"customer api test view",
+						"customers/api/tests/test_views.py"
+					],
+					[
+						"telepin ",
+						"customers/contracts/features/telepin_topup.py"
+					],
+					[
+						"feature payment",
+						"customers/contracts/features/payment.py"
+					],
+					[
+						"oc payment utils",
+						"interfaces/alyssa/static/js/views/oc.payment-confirmation-utils.js"
+					],
+					[
+						"payment order js",
+						"interfaces/alyssa/static/js/views/oc.payment-confirmation-order.js"
+					],
+					[
+						"oc  payment js",
+						"interfaces/alyssa/static/js/views/oc.payment-confirmation.js"
+					],
+					[
+						"alysa views init",
+						"interfaces/alyssa/views/__init__.py"
+					],
+					[
+						"deve",
+						"conf/development.py"
+					],
+					[
+						"OrdersApi",
+						"orders/ordered_contracts/api/__init__.py"
+					],
+					[
+						"feature stc",
+						"customers/contracts/features/stc.py"
 					],
 					[
 						"docker ",
 						"docker-compose.yml"
+					],
+					[
+						"produ",
+						"conf/production.py"
 					],
 					[
 						"Docker",
@@ -198,12 +351,32 @@
 			},
 			"select_symbol":
 			{
-				"height": 0.0,
-				"last_filter": "",
+				"height": 392.0,
+				"last_filter": "Resel",
 				"selected_items":
 				[
+					[
+						"Resel",
+						"Reseller"
+					],
+					[
+						"MsisdnHan",
+						"MSISDNHandler"
+					],
+					[
+						"MsisdnH",
+						"FixtoolMsisdnHandler"
+					],
+					[
+						"PackageHa",
+						"PackageHandler"
+					],
+					[
+						"OrdersA",
+						"OrdersApi"
+					]
 				],
-				"width": 0.0
+				"width": 686.0
 			},
 			"show_minimap": true,
 			"show_open_files": false,
@@ -277,10 +450,11 @@
 			},
 			"expanded_folders":
 			[
-				"/home/javier/work/dbss"
+				"/home/javier/personal/installation"
 			],
 			"file_history":
 			[
+				"/home/javier/personal/installation/install_libraries.sh",
 				"/home/javier/work/qv-documents/README.md",
 				"/home/javier/work/dbss/docs/pages/README-docker-setup.rst",
 				"/home/javier/work/dbss/docker/qvantel-base-dbss-python/Dockerfile",
@@ -296,7 +470,6 @@
 				"/home/javier/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
 				"/home/javier/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
 				"/home/javier/.zshrc",
-				"/home/javier/personal/installation/install_libraries.sh",
 				"/home/javier/Desktop/TODO.txt",
 				"/home/javier/personal/installation/.dotfiles/.bash_aliases",
 				"/home/javier/personal/installation/libraries.txt",
@@ -339,7 +512,7 @@
 			"folders":
 			[
 				{
-					"path": "/home/javier/work/dbss"
+					"path": "/home/javier/personal/installation"
 				}
 			],
 			"groups":
@@ -386,7 +559,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,38,65,678,545,1920,1080",
+			"position": "0,1,0,0,0,0,27,640,507,1920,1080",
 			"project": "",
 			"replace":
 			{
@@ -459,13 +632,13 @@
 			"show_minimap": true,
 			"show_open_files": false,
 			"show_tabs": true,
-			"side_bar_visible": true,
+			"side_bar_visible": false,
 			"side_bar_width": 429.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 41,
+			"window_id": 42,
 			"workspace_name": ""
 		},
 		{
@@ -478,11 +651,10 @@
 			"buffers":
 			[
 				{
-					"file": "/home/javier/personal/installation/install_libraries.sh",
+					"file": "/home/javier/personal/todoist-api/requirements.txt",
 					"settings":
 					{
-						"buffer_size": 1585,
-						"encoding": "UTF-8",
+						"buffer_size": 24,
 						"line_ending": "Unix"
 					}
 				}
@@ -535,10 +707,12 @@
 			},
 			"expanded_folders":
 			[
-				"/home/javier/personal/installation"
+				"/home/javier/personal/todoist-api",
+				"/home/javier/personal/todoist-api/supervisor"
 			],
 			"file_history":
 			[
+				"/home/javier/personal/installation/install_libraries.sh",
 				"/home/javier/work/qv-documents/README.md",
 				"/home/javier/work/dbss/docs/pages/README-docker-setup.rst",
 				"/home/javier/work/dbss/docker/qvantel-base-dbss-python/Dockerfile",
@@ -554,7 +728,6 @@
 				"/home/javier/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
 				"/home/javier/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
 				"/home/javier/.zshrc",
-				"/home/javier/personal/installation/install_libraries.sh",
 				"/home/javier/Desktop/TODO.txt",
 				"/home/javier/personal/installation/.dotfiles/.bash_aliases",
 				"/home/javier/personal/installation/libraries.txt",
@@ -597,7 +770,7 @@
 			"folders":
 			[
 				{
-					"path": "/home/javier/personal/installation"
+					"path": "/home/javier/personal/todoist-api"
 				}
 			],
 			"groups":
@@ -608,25 +781,25 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/javier/personal/installation/install_libraries.sh",
-							"semi_transient": false,
+							"file": "/home/javier/personal/todoist-api/requirements.txt",
+							"semi_transient": true,
 							"settings":
 							{
-								"buffer_size": 1585,
+								"buffer_size": 24,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										796,
-										796
+										8,
+										8
 									]
 								],
 								"settings":
 								{
 									"git_gutter_is_enabled": true,
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+									"syntax": "Packages/requirementstxt/requirementstxt.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -753,7 +926,926 @@
 			"template_settings":
 			{
 			},
-			"window_id": 42,
+			"window_id": 44,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"er",
+						"error_message"
+					],
+					[
+						"is_",
+						"is_deferred_payment"
+					],
+					[
+						"orde",
+						"ordered_devices"
+					],
+					[
+						"ORder",
+						"OrdersApi"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "18357, 3553XTR",
+					"settings":
+					{
+						"buffer_size": 14,
+						"line_ending": "Unix",
+						"name": "18357, 3553XTR"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"markd",
+						"MarkdownLivePreview: Open Preview"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 394.0,
+				"history":
+				[
+					"sublime_plugin.reload_plugin('User.disable_purchase')",
+					"sublime_plugin.reload_plugin('User.killer')",
+					"import sublime_plugin",
+					"reloading plugin User.disable_purchase"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/javier/work/dbss",
+				"/home/javier/work/dbss/common",
+				"/home/javier/work/dbss/common/bss",
+				"/home/javier/work/dbss/common/bss/resources"
+			],
+			"file_history":
+			[
+				"/home/javier/work/dbss/errands/tasks/task_handlers/dmp.py",
+				"/home/javier/work/dbss/customers/contracts/utils.py",
+				"/home/javier/work/dbss/customers/contracts/features/msisdn.py",
+				"/home/javier/work/dbss/customers/contracts/features/sync.py",
+				"/home/javier/work/dbss/applications/blck/middleware.py",
+				"/home/javier/work/dbss/applications/dwhtools/management/commands/dwhdump.conf",
+				"/home/javier/work/dbss/applications/salesmen/models.py",
+				"/home/javier/work/qv-documents/scripts/stop_local.sh",
+				"/home/javier/work/qv-documents/scripts/start_local.sh",
+				"/home/javier/work/dbss/customers/contracts/features/package.py",
+				"/home/javier/.bash_aliases",
+				"/home/javier/.bash_aliases_custom",
+				"/home/javier/work/dbss/interfaces/alyssa/static/js/views/oc.payment-confirmation-order.js",
+				"/home/javier/work/dbss/selfservice/ss_balance_transfer/views.py",
+				"/home/javier/work/dbss/customers/api/tests/test_views.py",
+				"/home/javier/work/dbss/interfaces/alyssa/static/js/views/oc.payment-confirmation.js",
+				"/home/javier/work/dbss/customers/contracts/features/payment.py",
+				"/home/javier/work/dbss/customers/contracts/features/telepin_topup.py",
+				"/home/javier/work/dbss/customers/companies/features/cug.py",
+				"/home/javier/work/dbss/applications/fourpane/handlers.py",
+				"/home/javier/work/dbss/customers/contracts/tabs/contract/consumption.py",
+				"/home/javier/work/dbss/errands/tasks/task_handlers/prepaid.py",
+				"/home/javier/work/dbss/customers/contracts/views.py",
+				"/home/javier/work/dbss/applications/authentication/services/enduser_auth/subscription_client.py",
+				"/home/javier/work/dbss/applications/fourpane/models.py",
+				"/home/javier/work/dbss/applications/fourpane/tabs.py",
+				"/home/javier/work/dbss/applications/fourpane/tests/test_memo_processing.py",
+				"/home/javier/work/dbss/customers/contracts/features/paymentplan.py",
+				"/home/javier/work/dbss/interfaces/alyssa/static/js/views/oc.payment-confirmation-utils.js",
+				"/home/javier/work/dbss/conf/development.py",
+				"/home/javier/work/dbss/common/bss/clients/orders.py",
+				"/home/javier/work/dbss/common/bss/resources/orders.py",
+				"/home/javier/work/dbss/common/bss/resources/__init__.py",
+				"/home/javier/work/dbss/interfaces/alyssa/views/__init__.py",
+				"/home/javier/work/dbss/common/clients/bss.py",
+				"/home/javier/work/dbss/orders/ordered_contracts/api/__init__.py",
+				"/home/javier/work/dbss/customers/contracts/features/stc.py",
+				"/home/javier/work/dbss/docker-compose.yml",
+				"/home/javier/work/dbss/node_modules/caniuse-db/features-json/css-featurequeries.json",
+				"/home/javier/work/dbss/customers/api/serializers.py",
+				"/home/javier/work/dbss/customers/api/views.py",
+				"/home/javier/work/dbss/selfservice/ss_billing/views.py",
+				"/home/javier/work/dbss/common/bss/clients/billing.py",
+				"/home/javier/work/dbss/selfservice/ss_billing/tests/test_views.py",
+				"/home/javier/work/dbss/customers/api/urls.py",
+				"/home/javier/work/qv-documents/README.md",
+				"/home/javier/work/dbss/docs/pages/README-docker-setup.rst",
+				"/home/javier/work/dbss/docker/qvantel-base-dbss-python/Dockerfile",
+				"/home/javier/work/dbss/conf/production.py",
+				"/home/javier/.zsh_history",
+				"/home/javier/work/dbss/Dockerfile",
+				"/home/javier/work/qv-documents/scripts/.ssh/server_list",
+				"/home/javier/work/qv-documents/scripts/hosts",
+				"/home/javier/.config/sublime-text-3/Packages/User/disable_purchase.py",
+				"/home/javier/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+				"/home/javier/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+				"/home/javier/.zshrc",
+				"/home/javier/personal/installation/install_libraries.sh",
+				"/home/javier/Desktop/TODO.txt",
+				"/home/javier/personal/installation/.dotfiles/.bash_aliases",
+				"/home/javier/personal/installation/libraries.txt",
+				"/home/javier/personal/installation/.dotfiles/.env",
+				"/home/javier/personal/installation/install_git_repo.sh",
+				"/home/javier/personal/installation/.dotfiles/install_dotfiles.sh",
+				"/home/javier/personal/installation/fresh_installation.sh",
+				"/home/javier/personal/installation/.dotfiles/.zshrc"
+			],
+			"find":
+			{
+				"height": 38.0
+			},
+			"find_in_files":
+			{
+				"height": 98.0,
+				"where_history":
+				[
+					"*.py",
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"salesmen_reseller",
+					"salesmen_",
+					"translation",
+					"handle_sync_dmp",
+					"topic",
+					"json",
+					"InvoicePaym",
+					"errors = json.loads(e.message).get('errors')",
+					"details",
+					"detail",
+					"HttpErrorResponse",
+					"detail",
+					"except HttpErrorResponse",
+					"HttpErrorResponse",
+					"except Exception as e",
+					"update_flow",
+					"do_persist",
+					"auto_persist",
+					"post_notification_hook",
+					"if action == 'done':",
+					"post_notif",
+					"post_notifiction",
+					"div_delete_payment",
+					"button_delete_payment",
+					"add_transaction",
+					"add_",
+					"add_transaction",
+					"add_",
+					"$('.button_delete_payment').click(function()",
+					"button_delete",
+					"delete",
+					"ordered-dev",
+					"ordered_dev",
+					"cache",
+					"cacheç",
+					"LocMemCache",
+					"lock",
+					".lock",
+					"invoice-payments"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/javier/work/dbss"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 14,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										14,
+										14
+									]
+								],
+								"settings":
+								{
+									"auto_name": "18357, 3553XTR",
+									"default_dir": "/home/javier/work/dbss/interfaces/alyssa/static/js/views",
+									"git_gutter_is_enabled": false,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 26.0
+			},
+			"input":
+			{
+				"height": 38.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,38,65,678,545,1920,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 48.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"dump conf",
+						"applications/dwhtools/management/commands/dwhdump.conf"
+					],
+					[
+						"customer contr utils",
+						"customers/contracts/utils.py"
+					],
+					[
+						"customer api test view",
+						"customers/api/tests/test_views.py"
+					],
+					[
+						"telepin ",
+						"customers/contracts/features/telepin_topup.py"
+					],
+					[
+						"feature payment",
+						"customers/contracts/features/payment.py"
+					],
+					[
+						"oc payment utils",
+						"interfaces/alyssa/static/js/views/oc.payment-confirmation-utils.js"
+					],
+					[
+						"payment order js",
+						"interfaces/alyssa/static/js/views/oc.payment-confirmation-order.js"
+					],
+					[
+						"oc  payment js",
+						"interfaces/alyssa/static/js/views/oc.payment-confirmation.js"
+					],
+					[
+						"alysa views init",
+						"interfaces/alyssa/views/__init__.py"
+					],
+					[
+						"deve",
+						"conf/development.py"
+					],
+					[
+						"OrdersApi",
+						"orders/ordered_contracts/api/__init__.py"
+					],
+					[
+						"feature stc",
+						"customers/contracts/features/stc.py"
+					],
+					[
+						"docker ",
+						"docker-compose.yml"
+					],
+					[
+						"produ",
+						"conf/production.py"
+					],
+					[
+						"Docker",
+						"Dockerfile"
+					],
+					[
+						"readme",
+						"docs/pages/README-docker-setup.rst"
+					],
+					[
+						"install",
+						"install_libraries.sh"
+					],
+					[
+						"install_libraries",
+						"install_libraries.sh"
+					],
+					[
+						"install_git_repo",
+						"install_git_repo.sh"
+					],
+					[
+						"install_dotfiles",
+						".dotfiles/install_dotfiles.sh"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 392.0,
+				"last_filter": "Resel",
+				"selected_items":
+				[
+					[
+						"Resel",
+						"Reseller"
+					],
+					[
+						"MsisdnHan",
+						"MSISDNHandler"
+					],
+					[
+						"MsisdnH",
+						"FixtoolMsisdnHandler"
+					],
+					[
+						"PackageHa",
+						"PackageHandler"
+					],
+					[
+						"OrdersA",
+						"OrdersApi"
+					]
+				],
+				"width": 686.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 429.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 41,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"er",
+						"error_message"
+					],
+					[
+						"is_",
+						"is_deferred_payment"
+					],
+					[
+						"orde",
+						"ordered_devices"
+					],
+					[
+						"ORder",
+						"OrdersApi"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/javier/personal/installation/install_libraries.sh",
+					"settings":
+					{
+						"buffer_size": 1717,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/javier/personal/installation/.gitignore",
+					"settings":
+					{
+						"buffer_size": 51,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"markd",
+						"MarkdownLivePreview: Open Preview"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 394.0,
+				"history":
+				[
+					"sublime_plugin.reload_plugin('User.disable_purchase')",
+					"sublime_plugin.reload_plugin('User.killer')",
+					"import sublime_plugin",
+					"reloading plugin User.disable_purchase"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/javier/personal/installation"
+			],
+			"file_history":
+			[
+				"/home/javier/work/dbss/errands/tasks/task_handlers/dmp.py",
+				"/home/javier/work/dbss/customers/contracts/utils.py",
+				"/home/javier/work/dbss/customers/contracts/features/msisdn.py",
+				"/home/javier/work/dbss/customers/contracts/features/sync.py",
+				"/home/javier/work/dbss/applications/blck/middleware.py",
+				"/home/javier/work/dbss/applications/dwhtools/management/commands/dwhdump.conf",
+				"/home/javier/work/dbss/applications/salesmen/models.py",
+				"/home/javier/work/qv-documents/scripts/stop_local.sh",
+				"/home/javier/work/qv-documents/scripts/start_local.sh",
+				"/home/javier/work/dbss/customers/contracts/features/package.py",
+				"/home/javier/.bash_aliases",
+				"/home/javier/.bash_aliases_custom",
+				"/home/javier/work/dbss/interfaces/alyssa/static/js/views/oc.payment-confirmation-order.js",
+				"/home/javier/work/dbss/selfservice/ss_balance_transfer/views.py",
+				"/home/javier/work/dbss/customers/api/tests/test_views.py",
+				"/home/javier/work/dbss/interfaces/alyssa/static/js/views/oc.payment-confirmation.js",
+				"/home/javier/work/dbss/customers/contracts/features/payment.py",
+				"/home/javier/work/dbss/customers/contracts/features/telepin_topup.py",
+				"/home/javier/work/dbss/customers/companies/features/cug.py",
+				"/home/javier/work/dbss/applications/fourpane/handlers.py",
+				"/home/javier/work/dbss/customers/contracts/tabs/contract/consumption.py",
+				"/home/javier/work/dbss/errands/tasks/task_handlers/prepaid.py",
+				"/home/javier/work/dbss/customers/contracts/views.py",
+				"/home/javier/work/dbss/applications/authentication/services/enduser_auth/subscription_client.py",
+				"/home/javier/work/dbss/applications/fourpane/models.py",
+				"/home/javier/work/dbss/applications/fourpane/tabs.py",
+				"/home/javier/work/dbss/applications/fourpane/tests/test_memo_processing.py",
+				"/home/javier/work/dbss/customers/contracts/features/paymentplan.py",
+				"/home/javier/work/dbss/interfaces/alyssa/static/js/views/oc.payment-confirmation-utils.js",
+				"/home/javier/work/dbss/conf/development.py",
+				"/home/javier/work/dbss/common/bss/clients/orders.py",
+				"/home/javier/work/dbss/common/bss/resources/orders.py",
+				"/home/javier/work/dbss/common/bss/resources/__init__.py",
+				"/home/javier/work/dbss/interfaces/alyssa/views/__init__.py",
+				"/home/javier/work/dbss/common/clients/bss.py",
+				"/home/javier/work/dbss/orders/ordered_contracts/api/__init__.py",
+				"/home/javier/work/dbss/customers/contracts/features/stc.py",
+				"/home/javier/work/dbss/docker-compose.yml",
+				"/home/javier/work/dbss/node_modules/caniuse-db/features-json/css-featurequeries.json",
+				"/home/javier/work/dbss/customers/api/serializers.py",
+				"/home/javier/work/dbss/customers/api/views.py",
+				"/home/javier/work/dbss/selfservice/ss_billing/views.py",
+				"/home/javier/work/dbss/common/bss/clients/billing.py",
+				"/home/javier/work/dbss/selfservice/ss_billing/tests/test_views.py",
+				"/home/javier/work/dbss/customers/api/urls.py",
+				"/home/javier/work/qv-documents/README.md",
+				"/home/javier/work/dbss/docs/pages/README-docker-setup.rst",
+				"/home/javier/work/dbss/docker/qvantel-base-dbss-python/Dockerfile",
+				"/home/javier/work/dbss/conf/production.py",
+				"/home/javier/.zsh_history",
+				"/home/javier/work/dbss/Dockerfile",
+				"/home/javier/work/qv-documents/scripts/.ssh/server_list",
+				"/home/javier/work/qv-documents/scripts/hosts",
+				"/home/javier/.config/sublime-text-3/Packages/User/disable_purchase.py",
+				"/home/javier/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+				"/home/javier/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+				"/home/javier/.zshrc",
+				"/home/javier/personal/installation/install_libraries.sh",
+				"/home/javier/Desktop/TODO.txt",
+				"/home/javier/personal/installation/.dotfiles/.bash_aliases",
+				"/home/javier/personal/installation/libraries.txt",
+				"/home/javier/personal/installation/.dotfiles/.env",
+				"/home/javier/personal/installation/install_git_repo.sh",
+				"/home/javier/personal/installation/.dotfiles/install_dotfiles.sh",
+				"/home/javier/personal/installation/fresh_installation.sh",
+				"/home/javier/personal/installation/.dotfiles/.zshrc"
+			],
+			"find":
+			{
+				"height": 38.0
+			},
+			"find_in_files":
+			{
+				"height": 98.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/javier/personal/installation"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/javier/personal/installation/install_libraries.sh",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1717,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										771,
+										771
+									]
+								],
+								"settings":
+								{
+									"git_gutter_is_enabled": true,
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/javier/personal/installation/.gitignore",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 51,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										48,
+										48
+									]
+								],
+								"settings":
+								{
+									"git_gutter_is_enabled": true,
+									"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 26.0
+			},
+			"input":
+			{
+				"height": 38.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,0,27,640,507,1920,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 48.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"dump conf",
+						"applications/dwhtools/management/commands/dwhdump.conf"
+					],
+					[
+						"customer contr utils",
+						"customers/contracts/utils.py"
+					],
+					[
+						"customer api test view",
+						"customers/api/tests/test_views.py"
+					],
+					[
+						"telepin ",
+						"customers/contracts/features/telepin_topup.py"
+					],
+					[
+						"feature payment",
+						"customers/contracts/features/payment.py"
+					],
+					[
+						"oc payment utils",
+						"interfaces/alyssa/static/js/views/oc.payment-confirmation-utils.js"
+					],
+					[
+						"payment order js",
+						"interfaces/alyssa/static/js/views/oc.payment-confirmation-order.js"
+					],
+					[
+						"oc  payment js",
+						"interfaces/alyssa/static/js/views/oc.payment-confirmation.js"
+					],
+					[
+						"alysa views init",
+						"interfaces/alyssa/views/__init__.py"
+					],
+					[
+						"deve",
+						"conf/development.py"
+					],
+					[
+						"OrdersApi",
+						"orders/ordered_contracts/api/__init__.py"
+					],
+					[
+						"feature stc",
+						"customers/contracts/features/stc.py"
+					],
+					[
+						"docker ",
+						"docker-compose.yml"
+					],
+					[
+						"produ",
+						"conf/production.py"
+					],
+					[
+						"Docker",
+						"Dockerfile"
+					],
+					[
+						"readme",
+						"docs/pages/README-docker-setup.rst"
+					],
+					[
+						"install",
+						"install_libraries.sh"
+					],
+					[
+						"install_libraries",
+						"install_libraries.sh"
+					],
+					[
+						"install_git_repo",
+						"install_git_repo.sh"
+					],
+					[
+						"install_dotfiles",
+						".dotfiles/install_dotfiles.sh"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 392.0,
+				"last_filter": "Resel",
+				"selected_items":
+				[
+					[
+						"Resel",
+						"Reseller"
+					],
+					[
+						"MsisdnHan",
+						"MSISDNHandler"
+					],
+					[
+						"MsisdnH",
+						"FixtoolMsisdnHandler"
+					],
+					[
+						"PackageHa",
+						"PackageHandler"
+					],
+					[
+						"OrdersA",
+						"OrdersApi"
+					]
+				],
+				"width": 686.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 429.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 46,
 			"workspace_name": ""
 		}
 	],
