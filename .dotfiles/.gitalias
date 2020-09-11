@@ -19,6 +19,10 @@ function git_delete_tag(){
     git tag --delete $tag
 }
 
+function checkout_origin(){
+    git checkout --track origin/$2
+}
+
 alias gct="git_create_tag $@"
 alias gdt="git_delete_tag $@"
 
@@ -26,6 +30,7 @@ alias grev="git checkout -- $*"
 alias gdrop="git checkout -- ."
 alias gdropc="git restore --staged . && git restore ."
 alias gch="git checkout"
+alias gcho="checkout_origin $@"
 alias gmr="git merge origin/$*"
 alias gbdr="git push origin :$*"
 alias gd="git diff -w $*"
