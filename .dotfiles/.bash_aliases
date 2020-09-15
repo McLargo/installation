@@ -17,10 +17,15 @@ alias lpyc='find . -name "*.pyc" -type f'
 alias python=python3
 alias pip=pip3
 
+# jira
+alias startj='sudo /opt/atlassian/jira/bin/start-jira.sh'
+alias stopj='sudo /opt/atlassian/jira/bin/stop-jira.sh'
+
 # extra
 alias subl='/opt/sublime_text/sublime_text'
 alias todo=$PERSONAL'/todoist-api/scripts/create_task.sh '
 alias todor=$PERSONAL'/todoist-api/scripts/remove_task.sh '
+
 
 # load custom bash_aliases
 if [ -f ~/.bash_aliases_custom ]; then
