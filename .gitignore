@@ -1,3 +1,7 @@
 .dotfiles/*_custom
+
+# Sublime
 Sublime/Index/*
 Sublime/Local/*
+Sublime/Cache/*
+Sublime/Packages/User/Package Control.cache/*

@@ -1,16 +1,19 @@
 {
 	"color_scheme": "Monokai.sublime-color-scheme",
+	"ensure_newline_at_eof_on_save": true,
 	"font_size": 11,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"rulers": [80],
-	"highlight_modified_tabs": true,
-	"ensure_newline_at_eof_on_save": true,
-	"highlight_line": true,
 	"open_files_in_new_window": false,
-	"word_wrap": true,
+	"rulers":
+	[
+		80
+	],
 	"spell_check": true,
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"word_wrap": true
 }
