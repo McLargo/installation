@@ -3,3 +3,4 @@ vim
 gnome-tweak-tool
 xclip
 python3-pip
+vlc
