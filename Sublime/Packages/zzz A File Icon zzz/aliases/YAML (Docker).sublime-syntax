@@ -1,9 +1,10 @@
 %YAML 1.2
 ---
 name: YAML (Docker)
-hidden: true
-file_extensions: ['docker-compose.yml']
 scope: source.yaml.docker
+hidden: true
+file_extensions:
+  - docker-compose.yml
 contexts:
   main:
     - include: scope:source.yaml#prototype

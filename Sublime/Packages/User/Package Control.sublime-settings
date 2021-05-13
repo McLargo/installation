@@ -14,11 +14,13 @@
 		"Git blame",
 		"GitGutter",
 		"LanguageTool",
-		"MarkdownLivePreview",
+		"MarkdownPreview",
+		"OmniMarkupPreviewer",
 		"Package Control",
 		"Pretty JSON",
 		"requirementstxt",
 		"SideBarEnhancements",
+		"Sublimerge 3",
 		"TrailingSpaces"
 	]
 }

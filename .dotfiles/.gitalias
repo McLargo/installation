@@ -49,6 +49,9 @@ alias gbmerd='git branch --merged | egrep -v "\*" | xargs git branch -d'
 #alias cm = commit -m
 #alias tree = log --graph --decorate --pretty=oneline --abbrev-commit
 
+# git description
+alias gdesc='git config --get branch.`git symbolic-ref --short HEAD`.description'
+
 
 #alias glo=git log --oneline --all --graph --decorate  $*
 #alias gl=git log --date=short --pretty=format:"%C(auto) %h %ad %<|(35)%ar %<(70,mtrunc) %s %d" -n 20 $1

@@ -1,9 +1,11 @@
 %YAML 1.2
 ---
 name: YAML (Lock)
-hidden: true
-file_extensions: ['Gemfile.lock', 'Berksfile.lock']
 scope: source.yaml.lock
+hidden: true
+file_extensions:
+  - Gemfile.lock
+  - Berksfile.lock
 contexts:
   main:
     - include: scope:source.yaml#prototype

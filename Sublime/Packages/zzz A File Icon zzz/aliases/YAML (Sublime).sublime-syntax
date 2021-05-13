@@ -1,9 +1,10 @@
 %YAML 1.2
 ---
 name: YAML (Sublime)
+scope: source.yaml.sublime.syntax
 hidden: true
-file_extensions: ['sublime-syntax']
-scope: source.yaml.sublime
+file_extensions:
+  - sublime-syntax
 contexts:
   main:
     - include: scope:source.yaml#prototype

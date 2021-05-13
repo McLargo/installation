@@ -1,9 +1,10 @@
 %YAML 1.2
 ---
 name: Shell Script (Ruby)
-hidden: true
-file_extensions: ['.rvmrc']
 scope: source.shell.ruby
+hidden: true
+file_extensions:
+  - .rvmrc
 contexts:
   main:
     - include: scope:source.shell#prototype
