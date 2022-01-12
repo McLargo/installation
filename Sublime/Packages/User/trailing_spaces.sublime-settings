@@ -1,5 +1,7 @@
 // Settings in here override those in "TrailingSpaces/trailing_spaces.sublime-settings"
 
 {
-	"trim_on_save": true
+    "trim_on_save": true,
+    "modified_lines_only": true,
+    "trailing_spaces_highlight_color": true
 }

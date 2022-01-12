@@ -7,6 +7,7 @@
 	[
 		"A File Icon",
 		"Anaconda",
+		"BracketHighlighter",
 		"Clickable URLs",
 		"Compare Side-By-Side",
 		"Djaneiro",
@@ -21,6 +22,6 @@
 		"requirementstxt",
 		"SideBarEnhancements",
 		"Sublimerge 3",
-		"TrailingSpaces"
-	]
+		"TrailingSpaces",
+	],
 }
