@@ -11,7 +11,7 @@
 	],
 	"color_scheme": "Monokai.sublime-color-scheme",
 	"ensure_newline_at_eof_on_save": true,
-	"font_size": 21,
+	"font_size": 18,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -26,4 +26,5 @@
 	"spell_check": true,
 	"translate_tabs_to_spaces": true,
 	"word_wrap": true,
+	"auto_complete": true,
 }
