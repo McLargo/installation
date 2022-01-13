@@ -20,14 +20,18 @@ sudo apt-get install apt-transport-https
 sudo apt-add-repository "deb https://download.sublimetext.com/ apt/stable/"
 sudo apt install sublime-text -y
 # install package control first
-if [ -f "$HOME/.config/sublime-text-3/Installed\ Packages/Package\ Control.sublime-package" ]
- 	rm -f $HOME/.config/sublime-text-3/Installed\ Packages/Package\ Control.sublime-package
-ln -s $PERSONAL/installation/Sublime/Installed\ Packages/Package\ Control.sublime-package $HOME/.config/sublime-text-3/Installed\ Packages/Package\ Control.sublime-package
+if [ -f "$HOME/.config/sublime-text/Installed\ Packages/Package\ Control.sublime-package" ]
+ 	rm -f $HOME/.config/sublime-text/Installed\ Packages/Package\ Control.sublime-package
+ln -s $PERSONAL/installation/Sublime/Installed\ Packages/Package\ Control.sublime-package $HOME/.config/sublime-text/Installed\ Packages/Package\ Control.sublime-package
 # sync documentation https://packagecontrol.io/docs/syncing
 # create symlink to my folder that contains my plug-ins and configuration
-if [ -d "$HOME/.config/sublime-text-3/Packages/User" ]
-	rm -rf $HOME/.config/sublime-text-3/Packages/User
-ln -s $PERSONAL/installation/Sublime/Packages/User $HOME/.config/sublime-text-3/Packages/User
+if [ -d "$HOME/.config/sublime-text/Packages/User" ]
+	rm -rf $HOME/.config/sublime-text/Packages/User && mkdir $HOME/.config/sublime-text/Packages/User
+ln -s $PERSONAL/installation/Sublime/Packages/User/Package\ Control.sublime-settings $HOME/.config/sublime-text/Packages/User/Package\ Control.sublime-settings
+ln -s $PERSONAL/installation/Sublime/Packages/User/Default\ \(Linux\).sublime-keymap $HOME/.config/sublime-text/Packages/User/Default\ \(Linux\).sublime-keymap
+ln -s $PERSONAL/installation/Sublime/Packages/User/disable_purchase.py $HOME/.config/sublime-text/Packages/User/disable_purchase.py
+ln -s $PERSONAL/installation/Sublime/Packages/User/Preferences.sublime-settings $HOME/.config/sublime-text/Packages/User/Preferences.sublime-settings
+ln -s $PERSONAL/installation/Sublime/Packages/User/trailing_spaces.sublime-settings $HOME/.config/sublime-text/Packages/User/trailing_spaces.sublime-settings
 
 # zsh
 echo "Installing zsh..."
