@@ -1,9 +1,0 @@
-[
-    { "keys": ["ctrl+keypad_divide"], "command": "toggle_comment", "args": { "block": false } },
-    { "keys": ["ctrl+shift+keypad_divide"], "command": "toggle_comment", "args": { "block": true } },
-    { "keys": ["ctrl+,"], "command": "show_overlay", "args": {"overlay": "goto", "text": "#"} },
-    { "keys": ["ctrl+shift+-"], "command": "toggle_side_bar" },
-    { "keys": ["ctrl+shift+y"], "command": "delete_trailing_spaces" },
-    { "keys": ["ctrl+shift+alt+s"], "command": "blame_show_all" },
-    { "keys": ["ctrl+shift+alt+e"], "command": "blame_erase_all" },
-]
