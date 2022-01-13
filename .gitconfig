@@ -1,0 +1,10 @@
+[user]
+    name = XXXXX XXXXX
+    email = XXXXX@XXXXX.com
+[github]
+[alias]
+[core]
+    editor = vim
+    longpaths = true
+[pull]
+    rebase = false
