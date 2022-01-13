@@ -21,11 +21,25 @@ alias pip=pip3
 alias startj='sudo /opt/atlassian/jira/bin/start-jira.sh'
 alias stopj='sudo /opt/atlassian/jira/bin/stop-jira.sh'
 
-# extra
+# sublime
 alias subl='/opt/sublime_text/sublime_text'
+
 # requires private repo
 alias todo=$PERSONAL'/todoist-api/scripts/create_task.sh '
 alias todor=$PERSONAL'/todoist-api/scripts/remove_task.sh '
+
+# install accent
+alias accent='$PERSONAL/installation/install_accents.sh'
+
+# docker
+alias dpo='docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer'
+alias dup='docker-compose up'
+alias ddo='docker-compose down'
+
+dexec() {
+    echo "Entering in $1"
+    docker exec -it $1 /bin/bash
+}
 
 
 # load custom bash_aliases
