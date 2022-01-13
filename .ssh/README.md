@@ -10,7 +10,7 @@ More info, check [here](https://superuser.com/questions/247564/is-there-a-way-fo
 ```
 ln -s $PERSONAL/installation/.ssh/config $HOME/.ssh/config
 ln -s $PERSONAL/installation/.ssh/personal.d $HOME/.ssh/personal.d
-ln -s <work_.ssh_path> ~/.ssh/work.d
+ln -s <work_ssh_path> ~/.ssh/work.d
 ```
 
 (symlink for personal and work .ssh files does not belong here, must be different repo)

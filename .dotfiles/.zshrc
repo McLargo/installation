@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/home/javier/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -106,11 +106,6 @@ fi
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
-fi
-
-# load virtualenv for dbss (djezzy/beeline)
-if [ -f ~/.load_virtualenv_dbss ]; then
-    . ~/.load_virtualenv_dbss
 fi
 
 # load custom theme definition for ZSH_THEME is "lambda"

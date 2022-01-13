@@ -4,6 +4,8 @@
 apt update -y
 echo "Installing libraries..."
 sudo apt install -y `cat libraries.txt`
+echo "Installing requirements.txt..."
+pip install -r requirements.txt
 
 # spotify
 echo "Installing spotify..."
@@ -14,13 +16,18 @@ sudo apt-get install spotify-client -y
 # sublime text 3
 echo "Installing sublime..."
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+sudo apt-get install apt-transport-https
 sudo apt-add-repository "deb https://download.sublimetext.com/ apt/stable/"
 sudo apt install sublime-text -y
-# check and remove previous sublime-text-3 folder, and
+# install package control first
+if [ -f "$HOME/.config/sublime-text-3/Installed\ Packages/Package\ Control.sublime-package" ]
+ 	rm -f $HOME/.config/sublime-text-3/Installed\ Packages/Package\ Control.sublime-package
+ln -s $PERSONAL/installation/Sublime/Installed\ Packages/Package\ Control.sublime-package $HOME/.config/sublime-text-3/Installed\ Packages/Package\ Control.sublime-package
+# sync documentation https://packagecontrol.io/docs/syncing
 # create symlink to my folder that contains my plug-ins and configuration
-if [ -d "$HOME/.config/sublime-text-3" ]
-	rm -rf $HOME/.config/sublime-text-3
-n -s $PERSONAL/installation/Sublime $HOME/.config/sublime-text-3
+if [ -d "$HOME/.config/sublime-text-3/Packages/User" ]
+	rm -rf $HOME/.config/sublime-text-3/Packages/User
+ln -s $PERSONAL/installation/Sublime/Packages/User $HOME/.config/sublime-text-3/Packages/User
 
 # zsh
 echo "Installing zsh..."
@@ -43,7 +50,3 @@ sudo apt install keepass2
 
 # calibre
 sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
-
-# teamviewer
-wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
-sudo apt install ./teamviewer_amd64.deb

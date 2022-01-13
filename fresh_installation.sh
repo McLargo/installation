@@ -9,5 +9,3 @@ echo 'Installing .dotenv files'
 
 echo 'Downloading git repository'
 ./install_git_repo.sh
-
-# TODO: add sublime installation
