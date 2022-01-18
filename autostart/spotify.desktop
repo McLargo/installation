@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=spotify
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_GB]=spotify
+Name=spotify
+Comment[en_GB]=
+Comment=

@@ -11,6 +11,24 @@ then
 	pip install -r requirements.txt
 fi
 
+# load settings
+read -p "do you want to load terminal settings? (y/n)? " answer
+if [[ $answer == "y" ]]
+then
+	dconf load /org/gnome/terminal/ < gnome_terminal_settings_backup.txt
+fi
+
+# load autostart
+read -p "do you want to load autostart settings? (y/n)? " answer
+if [[ $answer == "y" ]]
+then
+	if [ -f "$HOME/.config/autostart" ]; then
+	 	rm -f $HOME/.config/autostart
+	fi
+	ln -s $HOME/personal/installation/autostart/ $HOME/.config/autostart
+fi
+
+
 # spotify
 read -p "do you want to install spotify? (y/n)? " answer
 if [[ $answer == "y" ]]

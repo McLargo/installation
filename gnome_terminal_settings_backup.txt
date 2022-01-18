@@ -1,0 +1,12 @@
+[legacy/keybindings]
+close-tab='<Primary>w'
+copy='<Primary>c'
+new-tab='<Primary>t'
+new-window='<Primary>n'
+paste='<Primary>v'
+
+[legacy/profiles:]
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9']
+
+[legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+visible-name='JGM'

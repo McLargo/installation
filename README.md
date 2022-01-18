@@ -23,3 +23,6 @@ _Improvements may be required here, as this piece of code has been never fully t
 close session for zsh to be pickup as your default terminal
 In case zsh is not starting in new terminal
 https://dev.to/leamsigc/set-zsh-as-the-default-shell-in-your-terminal-3o7f
+
+Periodically, you can dump your terminal settings
+`dconf dump /org/gnome/terminal/ > $PERSONAL/installation/gnome_terminal_settings_backup.txt`
