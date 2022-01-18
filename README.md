@@ -17,12 +17,14 @@ Clone my personal installation repo
 
 `./fresh_installation.sh`
 
-_Improvements may be required here, as this piece of code has been never fully tested_
+### Helpers:
+You may need to store private settings somewhere, and do post-checks that doesn't really belongs here.
+
+How to import previously terminal settings:
+
+`dconf dump /org/gnome/terminal/ > $PERSONAL/installation/gnome_terminal_settings_backup.txt`
+
+[Docker portainer](https://docs.portainer.io/v/ce-2.9/start/install/server/docker/linux)
 
 ### Post-checks:
-close session for zsh to be pickup as your default terminal
-In case zsh is not starting in new terminal
-https://dev.to/leamsigc/set-zsh-as-the-default-shell-in-your-terminal-3o7f
-
-Periodically, you can dump your terminal settings
-`dconf dump /org/gnome/terminal/ > $PERSONAL/installation/gnome_terminal_settings_backup.txt`
+Close session for zsh to be pickup as your default terminal. [In case zsh is not starting in new terminal](https://dev.to/leamsigc/set-zsh-as-the-default-shell-in-your-terminal-3o7f)
