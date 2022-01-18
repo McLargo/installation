@@ -7,8 +7,8 @@ Install git
 `sudo apt-get install git -y`
 
 Create personal and work folders on user path
-`mdkir ~/personal`
-`mdkir ~/work`
+`mkdir ~/personal`
+`mkdir ~/work`
 
 Clone my personal installation repo
 `git clone https://github.com/McLargo/installation.git`
@@ -18,3 +18,8 @@ Clone my personal installation repo
 `./fresh_installation.sh`
 
 _Improvements may be required here, as this piece of code has been never fully tested_
+
+### Post-checks:
+close session for zsh to be pickup as your default terminal
+In case zsh is not starting in new terminal
+https://dev.to/leamsigc/set-zsh-as-the-default-shell-in-your-terminal-3o7f

@@ -6,3 +6,7 @@ set show-all-if-ambiguous on
 
 # Immediately add a trailing slash when autocompleting symlinks to directories
 set mark-symlinked-directories on
+
+# fix mismatch on accent and other Spanish chars
+xmodmap -e "keycode  57 = n N n N ntilde Ntilde"
+xmodmap -e "keycode 108 = Mode_switch ISO_Level3_Shift NoSymbol ISO_Level3_Shift NoSymbol ISO_Level3_Shift"
