@@ -123,3 +123,8 @@ export PATH="$HOME/.local/bin:$PATH"
 if [ -f ~/.gitalias ]; then
     . ~/.gitalias
 fi
+
+# load extra stuff
+if [ -f ~/.extra ]; then
+    . ~/.extra
+fi
