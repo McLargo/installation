@@ -10,8 +10,8 @@ alias lgalias='cat ~/.gitalias && cat ~/.gitalias_custom'
 alias lssh='cat ~/.ssh/work.d/* && cat ~/.ssh/personal.d/*'
 alias ls='ls -ltra'
 
-alias dpyc='find . -name "*.pyc" -type f -delete'
-alias lpyc='find . -name "*.pyc" -type f'
+alias dpyc='find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf'
+alias lpyc='find . | grep -E "(__pycache__|\.pyc|\.pyo$)"'
 
 # python and pip
 alias python=python3
