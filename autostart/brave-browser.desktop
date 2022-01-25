@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=brave-browser
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_GB]=brave
+Name=brave
+Comment[en_GB]=
+Comment=
