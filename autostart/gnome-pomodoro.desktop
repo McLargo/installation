@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=gnome-pomodoro
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_GB]=pomodoro
+Name=pomodoro
+Comment[en_GB]=
+Comment=
