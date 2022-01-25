@@ -18,9 +18,13 @@ ticking-sound-volume=0.20000000000000001
 
 [pomodoro/preferences]
 enabled-plugins=['sounds']
-long-break-interval=5.0
+long-break-interval=4.0
+pause-when-idle=false
 pomodoro-duration=1200.0
 show-screen-notifications=true
+
+
+
 
 [shell/extensions/dash-to-dock]
 dock-fixed=false
