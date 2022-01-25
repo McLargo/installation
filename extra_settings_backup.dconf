@@ -24,3 +24,25 @@ show-screen-notifications=true
 
 [shell/extensions/dash-to-dock]
 dock-fixed=false
+
+[desktop/peripherals/mouse]
+natural-scroll=false
+
+[desktop/peripherals/touchpad]
+two-finger-scrolling-enabled=true
+
+[desktop/privacy]
+disable-microphone=false
+
+[desktop/session]
+idle-delay=uint32 900
+
+[desktop/sound]
+allow-volume-above-100-percent=false
+
+[settings-daemon/plugins/color]
+night-light-enabled=true
+
+[settings-daemon/plugins/power]
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
