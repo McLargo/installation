@@ -24,6 +24,12 @@ How to import previously terminal settings:
 
 `dconf dump /org/gnome/terminal/ > $PERSONAL/installation/gnome_terminal_settings_backup.txt`
 
+To dump all settings:
+
+`dconf dump ~/ > saved_settings.dconf`
+
+
+
 [Docker portainer](https://docs.portainer.io/v/ce-2.9/start/install/server/docker/linux)
 
 ### Post-checks:
