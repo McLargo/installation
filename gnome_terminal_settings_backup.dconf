@@ -4,6 +4,8 @@ copy='<Primary>c'
 new-tab='<Primary>t'
 new-window='<Primary>n'
 paste='<Primary>v'
+next-tab='<Primary>Tab'
+prev-tab='<Primary><Shift>Tab'
 
 [legacy/profiles:]
 list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9']
