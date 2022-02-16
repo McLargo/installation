@@ -28,7 +28,7 @@ alias gdt="git_delete_tag $@"
 
 alias grev="git checkout -- $*"
 alias gdrop="git checkout -- ."
-alias gdropc="git restore --staged . && git restore ."
+alias gdropf="git restore --staged . && git restore ."
 alias gch="git checkout"
 alias gcho="checkout_origin $@"
 alias gmr="git merge origin/$*"
