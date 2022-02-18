@@ -128,3 +128,27 @@ fi
 if [ -f ~/.extra ]; then
     . ~/.extra
 fi
+
+# load virtualenv stuff
+if [ -f $PERSONAL/installation/scripts/load_venv.sh ]; then
+    virtualenv_dir="$HOME/.virtualenvs"
+    if [ ! -d "$virtualenv_dir" ]; then
+        exit
+    fi
+    echo 'Do you want to load a virtualenv in this terminal'
+    echo 'Press any char not present in the list below to skip'
+
+    number=1
+    declare -A virtualenvs_index
+    for entry in "$virtualenv_dir"/*
+    do
+      virtualenvs_index[$number]=$entry
+      echo "  $number-> $entry"
+      ((number=number+1))
+    done
+    vared -p 'Which venv would you like to activate?: ' -c answer
+    if ((answer >= 1 && answer <= number)); then
+        venv_to_activate="${virtualenvs_index[$answer]}/bin/activate"
+        source $PERSONAL/installation/scripts/load_venv.sh $venv_to_activate
+    fi
+fi
