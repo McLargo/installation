@@ -46,7 +46,6 @@ alias gbmerd='git branch --merged | egrep -v "\*" | xargs git branch -d'
 #alias gpm=git push origin master
 #alias gplm=git pull origin master
 #alias gg=git grep $*
-#alias cm = commit -m
 #alias tree = log --graph --decorate --pretty=oneline --abbrev-commit
 
 # git description
