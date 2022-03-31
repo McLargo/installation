@@ -119,6 +119,12 @@ fi
 # export path for python
 export PATH="$HOME/.local/bin:$PATH"
 
+# export path for go
+if [ -d "/usr/local/go/bin" ] ; then
+    export PATH=$PATH:/usr/local/go/bin
+fi
+
+
 # load gitalias
 if [ -f ~/.gitalias ]; then
     . ~/.gitalias
