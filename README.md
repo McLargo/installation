@@ -13,6 +13,8 @@ Create personal and work folders on user path
 Clone my personal installation repo
 `git clone https://github.com/McLargo/installation.git`
 
+Create file in `$HOME/.gitconfig`. Manually configure with includeIf conditions
+
 ### Execute following script:
 
 `./fresh_installation.sh`
@@ -27,7 +29,6 @@ How to import previously terminal settings:
 To dump all settings:
 
 `dconf dump ~/ > saved_settings.dconf`
-
 
 
 [Docker portainer](https://docs.portainer.io/v/ce-2.9/start/install/server/docker/linux)

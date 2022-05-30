@@ -1,6 +1,13 @@
 [user]
     name = XXXXX XXXXX
     email = XXXXX@XXXXX.com
+# one includeIf per .gitconfig file to configure
+# hierarchy can be applied
+# https://alysivji.github.io/multiple-gitconfig-files.html
+[includeIf "gitdir:~/work/path/"]
+    path = ~/path/.gitconfig
+[includeIf "gitdir:~/work/path/subpath/"]
+    path = ~/subpath/.gitconfig
 [github]
 [alias]
 [core]
