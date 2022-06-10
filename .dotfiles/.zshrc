@@ -57,6 +57,7 @@ plugins=(
     docker-compose
     aliases
     zsh-autosuggestions
+    autojump
 )
 
 source $ZSH/oh-my-zsh.sh
