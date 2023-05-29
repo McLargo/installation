@@ -8,6 +8,5 @@ set show-all-if-ambiguous on
 set mark-symlinked-directories on
 
 # fix mismatch on accent and other Spanish chars
-
 xmodmap -e "keycode  57 = n N n N ntilde Ntilde"
 xmodmap -e "keycode 108 = Mode_switch ISO_Level3_Shift NoSymbol ISO_Level3_Shift NoSymbol ISO_Level3_Shift"
