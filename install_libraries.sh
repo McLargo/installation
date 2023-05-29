@@ -1,29 +1,8 @@
 #!/usr/bin/env bash
 
-# install libraries on libraries.txt
-apt update -y
-read -p "do you want to install libraries? (y/n)? " answer
-if [[ $answer == "y" ]]
-then
-    echo "Installing libraries..."
-    sudo apt install -y `cat ./files/libraries.txt`
-    echo "Installing requirements.txt..."
-    pip install -r requirements.txt
-fi
 
-# load settings
-read -p "do you want to load terminal settings? (y/n)? " answer
-if [[ $answer == "y" ]]
-then
-    dconf load /org/gnome/terminal/ < gnome_terminal_settings_backup.dconf
-fi
 
-# extra settings
-read -p "do you want to load extra settings? (y/n)? " answer
-if [[ $answer == "y" ]]
-then
-    dconf load /org/gnome/ < extra_settings_backup.dconf
-fi
+
 
 # load autostart
 read -p "do you want to load autostart settings? (y/n)? " answer

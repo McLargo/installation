@@ -1,3 +1,5 @@
+.PHONY : apt_update install_libraries
+
 default: help
 
 help: ## Show help
@@ -6,3 +8,12 @@ help: ## Show help
 
 export_vscode_extensions: ## Export vscode extensions to a file
 	code --list-extensions > ./files/vscode_extensions.txt
+
+install_libraries: apt_update ## Install libraries
+	./scripts/install_libraries.sh
+
+load_settings:  ## Install libraries
+	./scripts/load_settings.sh
+
+apt_update: ## apt update
+	apt update -y
