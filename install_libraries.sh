@@ -6,7 +6,7 @@ read -p "do you want to install libraries? (y/n)? " answer
 if [[ $answer == "y" ]]
 then
     echo "Installing libraries..."
-    sudo apt install -y `cat libraries.txt`
+    sudo apt install -y `cat ./files/libraries.txt`
     echo "Installing requirements.txt..."
     pip install -r requirements.txt
 fi
