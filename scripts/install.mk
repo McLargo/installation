@@ -7,7 +7,7 @@ install_calibre: sudo ## Install calibre
 install_dotfiles: sudo ## Install dotfiles
 	./.scripts/install_dotfiles.sh
 
-install_git_repo:  sudo## Install git repository
+install_git_repo:  sudo ## Install git repository
 	./.scripts/install_git_repo.sh
 
 install_keepass: sudo ## Install keepass
@@ -24,3 +24,5 @@ install_vscode: sudo ## Install VS Code
 
 install_zsh: sudo ## Install zsh
 	./.scripts/install_zsh.sh
+
+install_all: install_libraries install_zsh install_brave install_git_repo install_spotify install_vscode install_keepass install_calibre

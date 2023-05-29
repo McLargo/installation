@@ -23,9 +23,6 @@ pause-when-idle=false
 pomodoro-duration=1200.0
 show-screen-notifications=true
 
-
-
-
 [shell/extensions/dash-to-dock]
 dock-fixed=false
 

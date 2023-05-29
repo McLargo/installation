@@ -11,8 +11,11 @@ help: ## Show help
 export_vscode_extensions: ## Export vscode extensions to a file
 	code --list-extensions > ./files/vscode_extensions.txt
 
-load_settings:  ## Load settings
+load_settings: ## Load settings
 	./scripts/load_settings.sh
+
+dump_terminal_settings: ## Dump terminal settings
+	dconf dump /org/gnome/terminal/ > $PERSONAL/installation/files/gnome_terminal_settings_backup.txt
 
 apt_update: sudo ## apt update
 	apt update -y
