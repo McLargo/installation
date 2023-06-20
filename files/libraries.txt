@@ -1,6 +1,6 @@
 curl
 vim
-gnome-tweak-tool
+gnome-tweaks
 xclip
 python3-pip
 vlc
