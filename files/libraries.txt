@@ -5,3 +5,4 @@ xclip
 python3-pip
 vlc
 gnome-shell-pomodoro
+fonts-firacode

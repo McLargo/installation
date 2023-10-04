@@ -2,3 +2,5 @@ ipython
 pytest
 pytest-sugar
 pytest-cov
+poetry
+ipdb
