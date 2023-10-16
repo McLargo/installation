@@ -9,6 +9,7 @@ alias egalias='code ~/.gitalias && code ~/.gitalias_custom'
 alias lgalias='cat ~/.gitalias && cat ~/.gitalias_custom'
 alias lssh='cat ~/.ssh/work.d/* && cat ~/.ssh/personal.d/*'
 alias ls='ls -ltra'
+alias terminal_shortcut=$PERSONAL'/installation/scripts/alias_terminal_shortcut.sh'
 
 alias dpyc='find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf'
 alias lpyc='find . | grep -E "(__pycache__|\.pyc|\.pyo$)"'
@@ -25,7 +26,7 @@ alias stopj='sudo /opt/atlassian/jira/bin/stop-jira.sh'
 alias todo=$PERSONAL'/todoist-api/scripts/create_task.sh '
 alias todor=$PERSONAL'/todoist-api/scripts/remove_task.sh '
 
-# docker portainer
+# docker
 alias dpo='docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer'
 dexec() {
     echo "Entering in $1"
