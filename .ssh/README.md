@@ -1,25 +1,21 @@
 # .ssh configuration
 
-The idea is to keep a simple `.ssh/config`, and include other .ssh config files,
-either personal or from work into the file.
-
-For more info, check:
-
-- [SSH config](https://www.ssh.com/academy/ssh/config)
-- [One ssh to include another](https://superuser.com/questions/247564/is-there-a-way-for-one-ssh-config-file-to-include-another-one)
+The idea is to keep a simple `~/.ssh/config` and [include another .ssh config
+files](https://superuser.com/questions/247564/is-there-a-way-for-one-ssh-config-file-to-include-another-one),
+either personal or from work.
 
 ## Steps
 
 ```bash
 ln -s $PERSONAL/installation/.ssh/config $HOME/.ssh/config
 ln -s $PERSONAL/installation/.ssh/personal.d $HOME/.ssh/personal.d
+mkdir <work_ssh_path>
 ln -s <work_ssh_path> ~/.ssh/work.d
 ```
 
-The symlink for personal and work .ssh files do not belong here, must be
-different repo.
-
-Then, generate [new github key](https://github.com/settings/keys)
+Once the structure is created, create the files inside `personal.d` and
+`work.d`. Inside `personal.d` folder, there is a sample file to be used as a
+template.
 
 ## Troubleshooting
 
