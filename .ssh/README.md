@@ -3,9 +3,10 @@
 The idea is to keep a simple `.ssh/config`, and include other .ssh config files,
 either personal or from work into the file.
 
-For more info, check
-[here](https://superuser.com/questions/247564/is-there-a-way-for-one-ssh-config-file-to-include-another-one
-)
+For more info, check:
+
+- [SSH config](https://www.ssh.com/academy/ssh/config)
+- [One ssh to include another](https://superuser.com/questions/247564/is-there-a-way-for-one-ssh-config-file-to-include-another-one)
 
 ## Steps
 

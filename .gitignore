@@ -1,1 +1,3 @@
 .dotfiles/*_custom
+.ssh/personal.d/*
+!/.ssh/personal.d/samle
