@@ -5,7 +5,7 @@
 - Set keyword language to English (US, with dead keys) to enable Spanish accent
   on a US keyboard.
 
-- Create new ssh keys.
+- Create new ssh and GPG keys and set them in github.
 
 - Install `git` and `make, execute the command below:
 
