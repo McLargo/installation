@@ -3,7 +3,7 @@
 ## Pre-requirements
 
 - Install git
-`sudo apt-get install git -y`
+`sudo apt-get install git make -y`
 
 - Create personal and work folders on the user path
 
@@ -13,6 +13,7 @@ mkdir ~/work
 ```
 
 - Clone my personal installation repo:
+
 `git clone https://github.com/McLargo/installation.git`
 
 - Create a file in `$HOME/.gitconfig`. Manually configure with `includeIf`
