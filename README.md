@@ -2,11 +2,16 @@
 
 ## Pre-requirements
 
-- Install git
+- Set keyword language to English (US, with dead keys) to enable Spanish accent
+  on a US keyboard.
+
+- Create new ssh keys.
+
+- Install `git` and `make, execute the command below:
 
 `sudo apt-get install git make -y`
 
-- Create `personal` and `work` folders on the user path
+- Create `personal` and `work` folders on the user path:
 
 ```bash
 mkdir ~/personal
@@ -19,9 +24,6 @@ mkdir ~/work
 
 - Create a file in `$HOME/.gitconfig`. Manually configure with `includeIf`
 conditions. Sample in `.gitconfig`:
-
-- Set keyword language to English (US, with dead keys) to enable Spanish accent
-  on a US keyboard.
 
 ## Makefile is your friend
 
