@@ -30,12 +30,9 @@ conditions. Sample in `.gitconfig`:
 
 ## Extra
 
-- gnome configuration. If there is some customization you may want to keep, find
-  it by running `dconf dump /org`. Copy/paste to
-  `files/extra_settings_backup.dconf` file to load later.
 - [Docker portainer](https://docs.portainer.io/v/ce-2.9/start/install/server/docker/linux)
 
-## Post-checks
+## Troubleshooting
 
-Close the current session for zsh to be pickup as your default terminal.
+Close the current session for `zsh` to be picked up as your default terminal.
 [In case zsh is not starting in a new terminal](https://dev.to/leamsigc/set-zsh-as-the-default-shell-in-your-terminal-3o7f)
