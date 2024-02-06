@@ -124,14 +124,6 @@ if [ $ZSH_THEME = 'lambda' ]; then
     ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[blue]%})"
 fi
 
-# export path for python
-export PATH="$HOME/.local/bin:$PATH"
-
-# export path for go
-if [ -d "/usr/local/go/bin" ] ; then
-    export PATH=$PATH:/usr/local/go/bin
-fi
-
 # load gitalias
 if [ -f ~/.gitalias ]; then
     . ~/.gitalias
@@ -147,6 +139,3 @@ if [ -f '/home/javier.gil/work/utils/google-cloud-sdk/path.zsh.inc' ]; then . '/
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/home/javier.gil/work/utils/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/javier.gil/work/utils/google-cloud-sdk/completion.zsh.inc'; fi
-
-# export GPG_TTY
-export GPG_TTY=$(tty)
