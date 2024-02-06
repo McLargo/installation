@@ -1,10 +1,10 @@
 [legacy/keybindings]
-close-tab='<Primary>w'
+close-tab='<Primary><Shift>w'
 copy='<Primary>c'
-new-tab='<Primary>t'
-new-window='<Primary>n'
-paste='<Primary>v'
+new-tab='<Primary><Shift>t'
+new-window='<Primary><Shift>n'
 next-tab='<Primary>Tab'
+paste='<Primary>v'
 prev-tab='<Primary><Shift>Tab'
 
 [legacy/profiles:]

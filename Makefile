@@ -18,4 +18,4 @@ set-startup: ## Set custom startup applications
 	./scripts/set_startup.sh
 
 dump-terminal-settings: ## Dump terminal settings
-	dconf dump /org/gnome/terminal/ > $(PERSONAL)/installation/files/gnome_terminal_settings_backup.txt
+	dconf dump /org/gnome/terminal/ > $(PERSONAL)/installation/files/gnome_terminal_settings_backup.dconf

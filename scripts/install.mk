@@ -7,7 +7,7 @@ install-calibre: ## Install calibre
 install-dotfiles: ## Install dotfiles
 	./scripts/install_dotfiles.sh
 
-install_git_repo:  ## Install git repository
+install-git-repo:  ## Install git repository
 	./scripts/install_git_repo.sh
 
 install-keepass: ## Install keepass

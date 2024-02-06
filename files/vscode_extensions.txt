@@ -19,8 +19,10 @@ ms-vscode.sublime-keybindings
 redhat.vscode-yaml
 redlin.remove-tabs-on-save
 ryanluker.vscode-coverage-gutters
+seyyedkhandon.firacode
 streetsidesoftware.avro
 streetsidesoftware.code-spell-checker
+tal7aouy.icons
 vscode-icons-team.vscode-icons
 vspacecode.whichkey
 waderyan.gitblame
