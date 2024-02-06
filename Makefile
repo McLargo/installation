@@ -14,5 +14,8 @@ export_vscode_extensions: ## Export vscode extensions to a file
 load_settings: ## Load settings
 	./scripts/load_settings.sh
 
+set-startup: ## Set custom startup applications
+	./scripts/set_startup.sh
+
 dump_terminal_settings: ## Dump terminal settings
 	dconf dump /org/gnome/terminal/ > $PERSONAL/installation/files/gnome_terminal_settings_backup.txt

@@ -1,10 +1,10 @@
 [Desktop Entry]
 Type=Application
-Exec=brave-browser
+Exec=/usr/bin/brave-browser
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true
-Name[en_GB]=brave
-Name=brave
-Comment[en_GB]=
+Name[en_US]=Brave
+Name=Brave
+Comment[en_US]=
 Comment=

@@ -1,10 +1,10 @@
 [Desktop Entry]
 Type=Application
-Exec=spotify
+Exec=/snap/bin/spotify
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true
-Name[en_GB]=spotify
-Name=spotify
-Comment[en_GB]=
+Name[en_US]=Spotify
+Name=Spotify
+Comment[en_US]=
 Comment=
