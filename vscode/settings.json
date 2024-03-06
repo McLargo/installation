@@ -1,0 +1,61 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "vscode-icons",
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "cSpell.language": "en,es-ES",
+    "cSpell.customDictionaries": {
+        "custom-dictionary": {
+            "name": "custom-dictionary",
+            "path": "~/personal/installation/vscode/cspell/custom-dictionary.txt",
+            "addWords": true,
+            "scope": "user"
+        }
+    },
+    "editor.rulers": [
+        80, 120
+    ],
+    "files.insertFinalNewline": true,
+    "coverage-gutters.showRulerCoverage": true,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.*_cache": true
+    },
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSurroundingLines": 10,
+    "workbench.colorCustomizations": {
+        "editorCursor.background": "#ff930f",
+        "editorCursor.foreground": "#ff930f"
+    },
+    "coverage-gutters.showLineCoverage": true,
+    "coverage-gutters.showGutterCoverage": true,
+    "coverage-gutters.coverageFileNames": [
+        "lcov.info",
+        "coverage.lcov",
+        "cov.xml",
+        "coverage.xml",
+        "jacoco.xml",
+        "coverage.cobertura.xml",
+        ".coverage",
+        "coverage.json"
+    ],
+    "coverage-gutters.coverageReportFileName": "coverage.xml",
+    "git.openRepositoryInParentFolders": "never",
+    "security.workspace.trust.untrustedFiles": "open",
+    "window.zoomLevel": 2,
+    "python.analysis.inlayHints.callArgumentNames": "partial",
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.pytestParameters": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "markdownlint.config": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true
+    },
+    "editor.copyWithSyntaxHighlighting": false,
+    "cSpell.dictionaries": [
+        "python"
+    ],
+    "editor.inlayHints.enabled": "offUnlessPressed"
+}
