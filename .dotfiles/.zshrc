@@ -134,6 +134,16 @@ if [ -f ~/.extra ]; then
     . ~/.extra
 fi
 
+# load grc
+[[ -s "/etc/grc.zsh" ]] && source /etc/grc.zsh
+
+# load extra grc comands (go)
+for cmd in go; do
+  cmd="${cmd##*conf.}"
+  type "${cmd}" >/dev/null 2>&1 && alias "${cmd}"="$( which grc ) --colour=auto ${cmd}"
+done
+
+
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/home/javier.gil/work/utils/google-cloud-sdk/path.zsh.inc' ]; then . '/home/javier.gil/work/utils/google-cloud-sdk/path.zsh.inc'; fi
 

@@ -7,3 +7,4 @@ vlc
 gnome-shell-pomodoro
 fonts-firacode
 pre-commit
+grc
