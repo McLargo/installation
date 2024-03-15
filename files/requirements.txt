@@ -4,3 +4,4 @@ pytest-sugar
 pytest-cov
 poetry
 ipdb
+ruff
