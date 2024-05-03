@@ -149,3 +149,8 @@ if [ -f '/home/javier.gil/work/utils/google-cloud-sdk/path.zsh.inc' ]; then . '/
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/home/javier.gil/work/utils/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/javier.gil/work/utils/google-cloud-sdk/completion.zsh.inc'; fi
+
+# pyenv
+
+# Generated for envman. Do not edit.
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
