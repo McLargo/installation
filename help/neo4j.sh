@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ./scripts/help/color.sh
+source ./help/color.sh
 
 echo -e "${GREEN}Neo4j is a [Graph database](https://neo4j.com/developer/graph-database/),
 based in NoSQL, used to relate data in a non pre-defined model.${NC}\n"

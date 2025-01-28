@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ./scripts/help/color.sh
+source ./help/color.sh
 
 echo -e "${GREEN}Showing mongoDB commands${NC}\n"
 

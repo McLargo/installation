@@ -30,7 +30,18 @@ conditions. Sample in `.gitconfig`:
 - Run `make help` to know which commands are available. Usually, for the first
   time, run `make install`.
 
-## Extra
+## Structure
+
+- **.dotfiles/**: configuration files for other tools, mainly zsh.
+- **.ssh/**: configuration files for ssh.
+- **autostart/**: configuration files for autostart applications.
+- **files/**: extra files to be used in the installation.
+- **help/**: scripts to display help messages.
+- **JIRA/**: documentation for JIRA.
+- **scripts/**: scripts to be used in the installation.
+- **vscode/**: configuration files for vscode.
+
+## Extra tools
 
 - [Docker portainer](https://docs.portainer.io/v/ce-2.9/start/install/server/docker/linux)
 
