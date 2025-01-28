@@ -1,6 +1,6 @@
-# VS Code
+# VSCode
 
-I have doubts regarding VS code installation in a  new computer.
+I have doubts regarding VSCode installation in a  new computer.
 
 VSCode has a Sync feature which is very useful to sync your setting
 automatically against a github account (in the cloud, no need of an extra repo
@@ -60,7 +60,7 @@ below some snippets to help you.
 #### Settings
 
 In this folder you will find a `settings.json` file. This file contains the most
-important settings for VSCode. You can copy/paste the content in the new VS code
+important settings for VSCode. You can copy/paste the content in the new VScode
 settings file.
 
 #### Extensions

@@ -19,7 +19,7 @@ install-libraries: ## Install libraries
 install-spotify: ## Install spotify
 	./scripts/install_spotify.sh
 
-install-vscode: ## Install VS Code
+install-vscode: ## Install VSCode
 	./scripts/install_vscode.sh
 
 install-zsh: ## Install zsh
