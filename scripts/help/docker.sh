@@ -2,26 +2,34 @@
 
 source ./scripts/help/color.sh
 
-echo -e "${GREEN}Showing Docker commands${NC}"
+echo -e "${GREEN}Showing Docker help commands${NC}\n"
 
-# Docker help command
+echo -e "\t${BLUE}Description${NC}\t\t\t${YELLOW}Command${NC}"
+echo -e "\t${BLUE}================${NC}\t\t${YELLOW}================${NC}"
 
-echo -e "\t${BLUE}List CLI commands:${NC} ${YELLOW}docker container --help${NC}"
-echo -e "\t${BLUE}Display version:${NC} ${YELLOW}docker version${NC}"
-echo -e "\t${BLUE}Display info:${NC} ${YELLOW}docker info${NC}"
+echo -e "\t${BLUE}List CLI commands${NC}\t\t${YELLOW}docker container --help${NC}"
+echo -e "\t${BLUE}Display version${NC}\t\t\t${YELLOW}docker version${NC}"
+echo -e "\t${BLUE}Display info${NC}\t\t\t${YELLOW}docker info${NC}"
 
-# Docker images
-echo -e "\t${BLUE}Build an image:${NC} ${YELLOW}docker build -t <image-name> .${NC}"
-echo -e "\t${BLUE}Run an image:${NC} ${YELLOW}docker run <image-name>${NC}"
-echo -e "\t${BLUE}List images:${NC} ${YELLOW}docker images${NC}"
-echo -e "\t${BLUE}Delete an image:${NC} ${YELLOW}docker rmi <image-id>${NC}"
 
-# Docker containers
-echo -e "\t${BLUE}List containers:${NC} ${YELLOW}docker ps${NC}"
-echo -e "\t${BLUE}Stop a running container:${NC} ${YELLOW}docker stop <container-id>${NC}"
-echo -e "\t${BLUE}Delete and stop a running container:${NC} ${YELLOW}docker rm -f <container-id>${NC}"
-echo -e "\t${BLUE}List all containers:${NC} ${YELLOW}docker container ls --all${NC}"
+echo -e "\n${GREEN}Showing Docker images commands${NC}\n"
 
-# Docker misc
-echo -e "\t${BLUE}See log output:${NC} ${YELLOW}docker logs${NC}"
-echo -e "\t${BLUE}Run a command in a container:${NC} ${YELLOW}docker exec -it <container-id> /bin/bash${NC}"
+echo -e "\t${BLUE}Description${NC}\t\t\t${YELLOW}Command${NC}"
+echo -e "\t${BLUE}================${NC}\t\t${YELLOW}================${NC}"
+
+echo -e "\t${BLUE}Build an image${NC}\t\t\t${YELLOW}docker build -t <image-name> .${NC}"
+echo -e "\t${BLUE}Run an image${NC}\t\t\t${YELLOW}docker run <image-name>${NC}"
+echo -e "\t${BLUE}List images${NC}\t\t\t${YELLOW}docker images${NC}"
+echo -e "\t${BLUE}Delete an image${NC}\t\t\t${YELLOW}docker rmi <image-id>${NC}"
+
+echo -e "\n${GREEN}Showing Docker containers commands${NC}\n"
+
+echo -e "\t${BLUE}Description${NC}\t\t\t${YELLOW}Command${NC}"
+echo -e "\t${BLUE}================${NC}\t\t${YELLOW}================${NC}"
+
+echo -e "\t${BLUE}List containers${NC}\t\t\t${YELLOW}docker ps${NC}"
+echo -e "\t${BLUE}Stop a running container${NC}\t${YELLOW}docker stop <container-id>${NC}"
+echo -e "\t${BLUE}Delete and stop a container${NC}\t${YELLOW}docker rm -f <container-id>${NC}"
+echo -e "\t${BLUE}List all containers${NC}\t\t${YELLOW}docker container ls --all${NC}"
+echo -e "\t${BLUE}See log output${NC}\t\t\t${YELLOW}docker logs <container-id>${NC}"
+echo -e "\t${BLUE}Run a command in a container${NC}\t${YELLOW}docker exec -it <container-id> /bin/bash${NC}"
