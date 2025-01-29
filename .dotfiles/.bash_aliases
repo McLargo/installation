@@ -6,12 +6,7 @@ alias gop=$PERSONAL
 alias ls='ls -ltra'
 alias lssh='cat ~/.ssh/work.d/* && cat ~/.ssh/personal.d/*'
 
-# edit alias
-alias edit_alias='code ~/.bash_aliases ~/.bash_aliases_custom ~/.gitalias  ~/.gitalias_custom'
-
 # alias to show help commands
-alias help_alias='cat ~/.bash_aliases && cat ~/.bash_aliases_custom'
-alias help_galias='cat ~/.gitalias && cat ~/.gitalias_custom'
 alias help_docker=$PERSONAL'/installation/help/docker.sh'
 alias help_helm=$PERSONAL'/installation/help/helm.sh'
 alias help_git=$PERSONAL'/installation/help/git.sh'
