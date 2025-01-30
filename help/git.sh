@@ -1,6 +1,7 @@
 #!/bin/bash
 
-source ./help/color.sh
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+source $DIR/color.sh
 
 echo -e "${GREEN}Most of this commands are used everyday. This is a cheatsheet to remember them."
 echo -e "In case tou need extra info, you can see [more details](https://github.com/richistron/aprendiendo-git/tree/master/docs)${NC}\n"

@@ -1,6 +1,7 @@
 #!/bin/bash
 
-source ./help/color.sh
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+source $DIR/color.sh
 
 echo -e "${GREEN}Neo4j is a [Graph database](https://neo4j.com/developer/graph-database/),
 based in NoSQL, used to relate data in a non pre-defined model.${NC}\n"

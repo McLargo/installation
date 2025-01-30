@@ -1,6 +1,7 @@
 #!/bin/bash
 
-source ./help/color.sh
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+source $DIR/color.sh
 
 echo -e "${GREEN}Showing terminal shortcuts commands${NC}\n"
 
