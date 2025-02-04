@@ -64,7 +64,7 @@ plugins=(
     golang
     history
     kubectl
-    microk8s
+    minikube
     nvm
     pre-commit
     python
