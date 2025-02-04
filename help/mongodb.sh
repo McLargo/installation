@@ -18,5 +18,7 @@ echo -e "\t${BLUE}find items with more filter${NC}\t${YELLOW}db.<collection>.fin
 echo -e "\t${BLUE}insert one item${NC}\t\t\t${YELLOW}db.<collection>.insertOne({\"<key>\":\"<value>\"})${NC}"
 echo -e "\t${BLUE}update item${NC}\t\t\t${YELLOW}db.<collection>.updateOne({\"<key>\": \"<value>\"}, {\$set: {\"<key>\": \"<value>\"}})${NC}"
 echo -e "\t${BLUE}remove field from item${NC}\t\t${YELLOW}db.<collection>.updateOne({\"<key>\": \"<value>\"}, {\$set: {\"<key>\": \"\"}})${NC}"
+echo -e "\t${BLUE}add item to array field${NC}\t\t${YELLOW}db.<collection>.updateOne({\"<key>\": \"<value>\"}, {\$push: {\"<key>\": \"<value>\"}})${NC}"
+echo -e "\t${BLUE}remove item in array field${NC}\t${YELLOW}db.<collection>.updateOne({\"<key>\": \"<value>\"}, {\$pull: {\"<key>\": \"<value>\"}})${NC}"
 echo -e "\t${BLUE}update many${NC}\t\t\t${YELLOW}db.<collection>.updateMany({\"<key>\": \"<value>\"}, [{\$set: {\"<key>\": \"<value>\"}}])${NC}"
 echo -e "\t${BLUE}delete item${NC}\t\t\t${YELLOW}db.<collection>.remove({\"<key>\": \"<value>\"})${NC}"
