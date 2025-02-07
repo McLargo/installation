@@ -12,7 +12,6 @@ echo -e "\t${BLUE}List CLI commands${NC}\t\t${YELLOW}docker container --help${NC
 echo -e "\t${BLUE}Display version${NC}\t\t\t${YELLOW}docker version${NC}"
 echo -e "\t${BLUE}Display info${NC}\t\t\t${YELLOW}docker info${NC}"
 
-
 echo -e "\n${GREEN}Showing Docker images commands${NC}\n"
 
 echo -e "\t${BLUE}Description${NC}\t\t\t${YELLOW}Command${NC}"

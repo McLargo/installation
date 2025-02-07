@@ -7,6 +7,7 @@ alias ls='ls -ltra'
 alias lssh='cat ~/.ssh/work.d/* && cat ~/.ssh/personal.d/*'
 
 # alias to show help commands
+alias help_bash=$PERSONAL'/installation/help/bash.sh'
 alias help_docker=$PERSONAL'/installation/help/docker.sh'
 alias help_helm=$PERSONAL'/installation/help/helm.sh'
 alias help_git=$PERSONAL'/installation/help/git.sh'
