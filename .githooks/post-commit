@@ -1,0 +1,7 @@
+#!/bin/sh
+echo "Thanks for your commit ! ^^"
+read -p "Will you like to push your branch to repo (y/n): " push_branch
+if [ $push_branch = 'y' ]
+then
+    git push origin `git symbolic-ref --short HEAD`
+fi
