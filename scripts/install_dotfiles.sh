@@ -2,7 +2,7 @@
 
 pushd $HOME/personal/installation/.dotfiles > /dev/null
 # files symblink to HOME root path
-files=($(ls -a .{bash_aliases,bash_aliases_custom,gitalias,gitalias_custom,env,zshrc,inputrc}))
+files=($(ls -a .{bash_aliases,bash_aliases_custom,gitalias,gitalias_custom,grc,env,zshrc,inputrc}))
 for DOTFILE in "${files[@]}"; do
     if [ -f $DOTFILE ]; then # continue, is a file
         if [ -f $HOME/$DOTFILE ]; then # ignore symlink creation
