@@ -41,3 +41,16 @@ dexec() {
 if [ -f ~/.bash_aliases_custom ]; then
     . ~/.bash_aliases_custom
 fi
+
+# obsidian
+openobsidian() {
+    mount_path=$HOME/Documents/jgm.javiergm-obsidian
+    if mountpoint -q "$mount_path"; then
+        echo "Obsidian folder is already mounted"
+    else
+        echo "Mounting Obsidian"
+        mkdir -p $mount_path
+        rclone mount jgm.javiergm-gdrive: $mount_path --allow-non-empty --daemon
+    fi
+    nohup obsidian > /dev/null 2>&1 &
+}
