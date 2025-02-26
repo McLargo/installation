@@ -18,6 +18,7 @@ alias help_postgresql=$PERSONAL'/installation/help/postgresql.sh'
 alias help_mongodb=$PERSONAL'/installation/help/mongodb.sh'
 alias help_sublime=$PERSONAL'/installation/help/sublime.sh'
 alias help_terminal=$PERSONAL'/installation/help/terminal.sh'
+alias help_vim=$PERSONAL'/installation/help/vim.sh'
 
 # python and pip
 alias python=python3
