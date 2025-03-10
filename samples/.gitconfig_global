@@ -1,19 +1,26 @@
 [user]
     name = XXXXX XXXXX
     email = XXXXX@XXXXX.com
+
 # one includeIf per .gitconfig file to configure, hierarchy can be applied
 # https://alysivji.github.io/multiple-gitconfig-files.html
-# GPG key in personal
 [includeIf "gitdir:~/personal/"]
     path = ~/personal/.gitconfig
 [includeIf "gitdir:~/work/path/"]
     path = ~/path/.gitconfig
 [includeIf "gitdir:~/work/path/subpath/"]
     path = ~/subpath/.gitconfig
+
 [github]
+
 [alias]
+
 [core]
     editor = vim
     longpaths = true
+
 [pull]
-    rebase = false
+  rebase = true
+
+[fetch]
+  prune = true

@@ -5,9 +5,7 @@
 - Set keyword language to English (US, with dead keys) to enable Spanish accent
   on a US keyboard.
 
-- Create new ssh and GPG keys and set them in github.
-
-- Install `git` and `make, execute the command below:
+- Install `git` and `make`. Execute the command below:
 
 `sudo apt-get install git make -y`
 
@@ -22,13 +20,34 @@ mkdir ~/work
 
 `git clone git@github.com:McLargo/installation.git`
 
-- Create a file in `$HOME/.gitconfig`. Manually configure with `includeIf`
-conditions. Sample in `.gitconfig`:
-
 ## Makefile is your friend
 
 - Run `make help` to know which commands are available. Usually, for the first
   time, run `make install`.
+
+## ssh configuration
+
+- Create new ssh in your `$HOME/.ssh` and upload public key in github.
+
+- To test the configuration, run `ssh -T git@<host>`. Remember to configure the
+  host in your `~/.ssh/config` file.
+
+- Create a new file in `$HOME/.gitconfig`. Sample in
+  `samples/.gitconfig_global`, you need to update manually what is needed,
+  including any number of `includeIf` conditions.
+
+- Create a file in `$PERSONAL/.gitconfig`. Sample
+  in`samples/.gitconfig_personal`, you need to manually update what is needed,
+  including signing commits via ssh keys.
+
+- Create `~/.config/git/allowed_signers` file with the following content:
+
+```bash
+$(whoami) $(cat ~/.ssh/<public_key>)
+```
+
+- You can add more than one public key, just add a new line with the same
+  format.
 
 ## Structure
 
