@@ -43,6 +43,9 @@ alias gmr="git merge origin/$*"
 # git branch
 alias gb="git branch -a | tee"
 
+# git stash
+alias gstl="git stash list | tee"
+
 # git grep
 alias gg="git grep $*"
 
