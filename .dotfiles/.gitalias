@@ -31,12 +31,17 @@ alias gdf="git diff -w --full-index"
 # git prune
 alias gbmer='git branch --merged | grep -v "\*"'
 alias gbmerd='git branch --merged | egrep -v "\*" | xargs git branch -d'
+alias gbd='git branch -d'
+alias gbD='git branch -D'
 
 # git update branch
 alias gp="git push origin $*"
 alias gpl="git pull origin $*"
 alias gbdr="git push origin :$*"
 alias gmr="git merge origin/$*"
+
+# git branch
+alias gb="git branch -a | tee"
 
 # git grep
 alias gg="git grep $*"
