@@ -151,7 +151,7 @@ if [ -f ~/.extra ]; then
 fi
 
 # load grc
-[[ -s "/etc/grc.zsh" ]] && source /etc/grc.zsh
+[[ -s ~/.grc/grc.zsh ]] && source ~/.grc/grc.zsh
 
 # load extra grc comands (go)
 for cmd in go; do
