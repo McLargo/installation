@@ -55,3 +55,6 @@ openobsidian() {
     fi
     nohup obsidian > /dev/null 2>&1 &
 }
+
+# alias to get VPN OTP code
+alias vpn_otp=$PERSONAL'/installation/scripts/get_vpn_otp.sh'
