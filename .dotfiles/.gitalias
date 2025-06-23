@@ -41,7 +41,8 @@ alias gbdr="git push origin :$*"
 alias gmr="git merge origin/$*"
 
 # git branch
-alias gb="git branch -a | tee"
+alias gb="git branch | tee"
+alias gba="git branch -a | tee"
 
 # git stash
 alias gstl="git stash list | tee"
