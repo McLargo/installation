@@ -58,3 +58,7 @@ openobsidian() {
 
 # alias to get VPN OTP code
 alias vpn_otp=$PERSONAL'/installation/scripts/get_vpn_otp.sh'
+
+# raspberry
+alias pi='ssh pi@retropie.local'
+alias pi_restart='ssh pi@retropie.local sudo reboot'
