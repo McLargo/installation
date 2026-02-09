@@ -1,3 +1,6 @@
+##@ Install
+.PHONY: install-brave install-calibre install-dotfiles install-git-repo install-keepass install-libraries install-spotify install-vscode install-zsh install-all
+
 install-brave: ## Install brave
 	./scripts/install_brave.sh
 
@@ -25,4 +28,4 @@ install-vscode: ## Install VSCode
 install-zsh: ## Install zsh
 	./scripts/install_zsh.sh
 
-install-all: install_libraries install_zsh install_brave install_git_repo install_spotify install_vscode install_keepass install_calibre
+install-all: install_libraries install_zsh install_brave install_git_repo install_spotify install_vscode install_keepass install_calibre ## Install all dependencies and applications
